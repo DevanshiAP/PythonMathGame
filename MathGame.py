@@ -10,12 +10,15 @@ inp=int(input('enter your choice: '))
 
 score=0
 
+def division(x, y):
+    return x / y
+
 for i in range(0,15):
 
     if inp == 1:
         no1=random.randint(0,20)
         no2=random.randint(0,20)
-        oper=[('+',operator.add),('-',operator.sub),('*',operator.mul)]
+        oper=[('+',operator.add),('-',operator.sub),('*',operator.mul),("/",division)]
         op, fn = random.choice(oper)
         print("{} {} {}".format(no1, op, no2))
         ans=fn(no1, no2)
