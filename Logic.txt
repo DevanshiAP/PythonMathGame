@@ -1,0 +1,37 @@
+MathGame Logic
+
+Taks 1:
+    1.1 -> Whats your name?
+    1.2 -> Give user two option: 1. Easy 2. Medium
+
+Task 2: 
+    If Easy: 
+        Number range has to be between 0 to 20:
+        The operators: '+ - * /' 
+    If Medium:
+        Number range has to be between 0 to 50:
+        The operators: '+ - * /' 
+
+
+Sample:
+
+./MathGame.py
+
+Whats your name?
+-Apurv
+
+Chosse your level: 1. Easy 2. Medium
+-1
+
+Is 2 + 2 = 4 ? Y/N 
+Y 
+
+Is 3 * 3 = 9 ? Y/N
+Y 
+
+Is 4 / 2 = 3 ? Y/N 
+Y 
+
+----Game Over -----
+Game Score: 2
+
